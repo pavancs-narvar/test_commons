@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ml-team-commons"
+version = "0.1.0"
+description = "\"common repo"
+authors = ["pavancs <174584413+pavancs-narvar@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
